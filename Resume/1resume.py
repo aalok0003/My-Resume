@@ -7,7 +7,7 @@ Created on Fri Apr 21 14:34:38 2023
 import streamlit as st
 import datetime
 from PIL import Image
-image = Image.open('Resume/mypic2.jpg')
+image = Image.open('Resume/mypic.jpg')
 
 col1,col2= st.columns(2)
 nav = st.sidebar.radio("Navigation",['Basic Info','Resume'])
