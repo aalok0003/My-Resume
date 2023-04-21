@@ -77,7 +77,8 @@ if nav=="Resume":
         st.subheader("Insurance Premium Prediction Web APP")
         with st.expander("Click to read description"):
             st.write(" A complete web app using Python Framework-Streamlit. In this I trained the machine learning model with RandomForestRegressor using Sk-Learn library.")
-        
+            if st.button(("Open App")):
+            st.write("https://aalok0003-insurance-premium-app-insurance1insurance-99a8oz.streamlit.app/") 
         st.subheader("Movie Recommendation System")
         with st.expander("Click to read description"):
             st.write("I have used python library difflib to match user input to closest value in case of mis typing. To convert textual data into numerical data TfidfVectorizer is used and for similarity score cosine_similarity is used")
