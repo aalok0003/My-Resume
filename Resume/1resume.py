@@ -92,6 +92,10 @@ if nav=="Resume":
         efforts on mobile app experience or their website. They are providing customer data for me to analyze and conclude.
         I analyzed the given data by making comparisons among various features using plots with Seaborn library,
         then built a linear machine learning linear regression model to make conclusions using its coefficient value""")
+            
+            st.subheader("Movie Recommendation System Web App Deployment")
+            st.write(":red[Currently working on]")
+            
         
         
 if nav=="Basic Info":
