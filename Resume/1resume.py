@@ -82,7 +82,7 @@ if nav=="Resume":
         st.subheader("Movie Recommendation System")
         with st.expander("Click to read description"):
             st.write("I have used python library difflib to match user input to closest value in case of mis typing. To convert textual data into numerical data TfidfVectorizer is used and for similarity score cosine_similarity is used")
-        
+            st.write(":red[Currently working on its web app deployment]")
         st.subheader("Business Analysis Project")
         with st.expander("Click to read description"):
             
@@ -92,10 +92,6 @@ if nav=="Resume":
         efforts on mobile app experience or their website. They are providing customer data for me to analyze and conclude.
         I analyzed the given data by making comparisons among various features using plots with Seaborn library,
         then built a linear machine learning linear regression model to make conclusions using its coefficient value""")
-            
-        st.subheader("Movie Recommendation System Web App Deployment")
-        st.write(":red[Currently working on]")
-            
         
         
 if nav=="Basic Info":
