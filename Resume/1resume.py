@@ -82,7 +82,9 @@ if nav=="Resume":
         st.subheader("Movie Recommendation System")
         with st.expander("Click to read description"):
             st.write("I have used python library difflib to match user input to closest value in case of mis typing. To convert textual data into numerical data TfidfVectorizer is used and for similarity score cosine_similarity is used")
-            st.write(":red[Currently working on its web app deployment]")
+            if st.button(("Open App")):
+                st.write("https://aalok0003-movie-moviemovie-t8v2pj.streamlit.app/") 
+            st.write(":red[Currently working to connect it with API to fetch posters of movies.]")
         st.subheader("Business Analysis Project")
         with st.expander("Click to read description"):
             
