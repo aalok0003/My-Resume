@@ -10,10 +10,10 @@ from PIL import Image
 image = Image.open('Resume/mypic.jpeg')
 
 col1,col2= st.columns(2)
-nav = st.sidebar.radio("Navigation",['Basic Info','Resume'])
+nav = st.sidebar.radio("Navigation",['Basic Info','Resume/Portfolio','Contact'])
 
 
-if nav=="Resume":
+if nav=="Resume/Portfolio":
     with col1:
         
         ## 1Education
@@ -103,3 +103,11 @@ if nav=="Basic Info":
     st.title("Welcome To My Page")
     st.write("My name is Alok, I am 21 years old. I am respectful to all and honest towards my work. Currently I am looking for an internship to test my skills and learn new things.")
     st.image(image, caption="Alok Sharma", width=(360) )
+    
+    
+if nav=="Resume/Portfolio":
+    st.title("Contact")
+    if st.button(("Email")):
+                st.write("kingofkingsalok@gmail.com") 
+    if st.button(("Mobile No.")):
+                st.write("9501497362")
