@@ -105,7 +105,7 @@ if nav=="Basic Info":
     st.image(image, caption="Alok Sharma", width=(360) )
     
     
-if nav=="Resume/Portfolio":
+if nav=="Contact":
     st.title("Contact")
     if st.button(("Email")):
                 st.write("kingofkingsalok@gmail.com") 
